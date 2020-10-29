@@ -1,0 +1,10 @@
+C:\Users\ksien\Desktop\Studium\IO\Lab1-ServerTCP\Lab1-ServerTCP\obj\Debug\Lab1-ServerTCP.csprojAssemblyReference.cache
+C:\Users\ksien\Desktop\Studium\IO\Lab1-ServerTCP\Lab1-ServerTCP\obj\Debug\Lab1-ServerTCP.csproj.CoreCompileInputs.cache
+C:\Users\ksien\Desktop\Studium\IO\Lab1-ServerTCP\Lab1-ServerTCP\bin\Debug\Lab1-ServerTCP.exe.config
+C:\Users\ksien\Desktop\Studium\IO\Lab1-ServerTCP\Lab1-ServerTCP\bin\Debug\Lab1-ServerTCP.exe
+C:\Users\ksien\Desktop\Studium\IO\Lab1-ServerTCP\Lab1-ServerTCP\bin\Debug\Lab1-ServerTCP.pdb
+C:\Users\ksien\Desktop\Studium\IO\Lab1-ServerTCP\Lab1-ServerTCP\bin\Debug\Lab1-ServerTCP-Lib.dll
+C:\Users\ksien\Desktop\Studium\IO\Lab1-ServerTCP\Lab1-ServerTCP\bin\Debug\Lab1-ServerTCP-Lib.pdb
+C:\Users\ksien\Desktop\Studium\IO\Lab1-ServerTCP\Lab1-ServerTCP\obj\Debug\Lab1-ServerTCP.csproj.CopyComplete
+C:\Users\ksien\Desktop\Studium\IO\Lab1-ServerTCP\Lab1-ServerTCP\obj\Debug\Lab1-ServerTCP.exe
+C:\Users\ksien\Desktop\Studium\IO\Lab1-ServerTCP\Lab1-ServerTCP\obj\Debug\Lab1-ServerTCP.pdb

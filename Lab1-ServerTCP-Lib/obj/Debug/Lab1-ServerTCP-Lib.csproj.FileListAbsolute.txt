@@ -1,0 +1,6 @@
+C:\Users\ksien\Desktop\Studium\IO\Lab1-ServerTCP-Lib\bin\Debug\Lab1-ServerTCP-Lib.dll
+C:\Users\ksien\Desktop\Studium\IO\Lab1-ServerTCP-Lib\bin\Debug\Lab1-ServerTCP-Lib.pdb
+C:\Users\ksien\Desktop\Studium\IO\Lab1-ServerTCP-Lib\obj\Debug\Lab1-ServerTCP-Lib.csprojAssemblyReference.cache
+C:\Users\ksien\Desktop\Studium\IO\Lab1-ServerTCP-Lib\obj\Debug\Lab1-ServerTCP-Lib.csproj.CoreCompileInputs.cache
+C:\Users\ksien\Desktop\Studium\IO\Lab1-ServerTCP-Lib\obj\Debug\Lab1-ServerTCP-Lib.dll
+C:\Users\ksien\Desktop\Studium\IO\Lab1-ServerTCP-Lib\obj\Debug\Lab1-ServerTCP-Lib.pdb

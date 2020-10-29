@@ -15,18 +15,60 @@ namespace Lab1_ServerTCP_Lib
     /// </summary>
     public class AsyncServer : AbstractServer
     {
+
+        /// <summary>
+        /// Needet to ignore each secound message.
+        /// </summary>
         bool important = true;
+
+        /// <summary>
+        /// Regex looking for send number.
+        /// </summary>
         Regex regexNumbers = new Regex(@"^\d{1,9}$");
+
+        /// <summary>
+        /// Regex looking for "print".
+        /// </summary>
         Regex regexPrint = new Regex(@"^[Pp][Rr][Ii][Nn][Tt]$");
+
+        /// <summary>
+        /// Regex looking for "kill".
+        /// </summary>
         Regex regexKill = new Regex(@"^[Kk][Ii][Ll][Ll]$");
+
+        /// <summary>
+        /// Regex looking for problemmaker.
+        /// </summary>
         Regex regexError = new Regex(@"^(\n\r|\r\n)$");
+
+        /// <summary>
+        /// Random
+        /// </summary>
         Random rnd = new Random();
+
+        /// <summary>
+        /// Trim
+        /// </summary>
         char[] trim = { (char)0x0 };
 
+        /// <summary>
+        /// Delegate
+        /// </summary>
+        /// <param name="nStream"></param>
         public delegate void TransmissionDataDelegate(NetworkStream nStream);
+
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        /// <param name="IP">IP Adress</param>
+        /// <param name="port">Port Number</param>
         public AsyncServer(IPAddress IP, int port) : base(IP, port)
         {
         }
+
+        /// <summary>
+        /// Accepts client and assigns values.
+        /// </summary>
         protected override void AcceptClient()
         {
             while (true)
@@ -38,6 +80,10 @@ namespace Lab1_ServerTCP_Lib
             }
         }
 
+        /// <summary>
+        /// Responsible for all main actions performed by the server.
+        /// </summary>
+        /// <param name="stream">Stream</param>
         protected override void BeginDataTransmission(NetworkStream stream)
         {
             byte[] buffer = new byte[buffer_size];
@@ -122,16 +168,21 @@ namespace Lab1_ServerTCP_Lib
                 }
             }
         }
+        /// <summary>
+        /// Callback
+        /// </summary>
+        /// <param name="ar"></param>
+
         private void TransmissionCallback(IAsyncResult ar)
         {
         }
+
         /// <summary>
-        /// Overrided comment.
+        /// Starts the server.
         /// </summary>
         public override void Start()
         {
             StartListening();
-            //transmission starts within the accept function
             AcceptClient();
         }
     }
